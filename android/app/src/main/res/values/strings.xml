@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Hushwood</string>
+    <string name="title_activity_main">Hushwood</string>
+    <string name="package_name">com.hushwood.quietcure</string>
+    <string name="custom_url_scheme">com.hushwood.quietcure</string>
+</resources>

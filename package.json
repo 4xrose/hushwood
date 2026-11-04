@@ -1,0 +1,26 @@
+{
+  "name": "hushwood-the-quiet-cure",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "HUSHWOOD — The Quiet Cure: a mobile-first 3D survival horror game.",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "node tools/validate-level.mjs"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.2.3",
+    "@capacitor/core": "^6.2.3",
+    "@dimforge/rapier3d-compat": "^0.14.0",
+    "howler": "^2.2.4",
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.2.3",
+    "@gltf-transform/cli": "^4.5.1",
+    "vite": "^6.0.0"
+  }
+}

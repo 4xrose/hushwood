@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta name="theme-color" content="#080b0a">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="HUSHWOOD — The Quiet Cure. A first-person survival horror game set in a sleeping clinic. Listen. Hide. Wake the house.">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Hushwood">
+  <title>HUSHWOOD — The Quiet Cure</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
+  <link rel="preload" href="./fonts/cormorant-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="./fonts/special-elite-latin.woff2" as="font" type="font/woff2" crossorigin>
+</head>
+<body>
+  <div id="app">
+    <canvas id="scene" aria-label="Hushwood game world" tabindex="0"></canvas>
+    <div id="grain" aria-hidden="true"></div>
+    <div id="vignette" aria-hidden="true"></div>
+    <div id="ui" role="application" aria-label="Hushwood interface"></div>
+    <div id="rotate-overlay" class="rotate-overlay" aria-hidden="true">
+      <div class="rotate-card">
+        <div class="rotate-phone" aria-hidden="true">
+          <svg viewBox="0 0 64 96"><rect x="12" y="4" width="40" height="88" rx="7"/><path d="M27 84h10"/></svg>
+          <span class="rotate-arrow"></span>
+        </div>
+        <p class="rotate-kicker">HUSHWOOD</p>
+        <p class="rotate-title">Turn the phone sideways</p>
+        <p class="rotate-copy">The clinic is dark, and the halls are narrow.<br>This story is told in landscape.</p>
+      </div>
+    </div>
+    <div id="boot" class="screen boot">
+      <div class="boot-inner">
+        <div class="boot-mark" aria-hidden="true">
+          <svg viewBox="0 0 64 64"><path d="M32 7C19 20 12 29 12 39a20 20 0 0 0 40 0c0-10-7-19-20-32Zm0 15c6 7 10 12 10 17a10 10 0 0 1-20 0c0-5 4-10 10-17Z"/></svg>
+        </div>
+        <p class="boot-title">HUSHWOOD</p>
+        <p class="boot-sub">preparing the quiet cure</p>
+        <div class="boot-line"><span></span></div>
+      </div>
+    </div>
+    <noscript><div class="noscript">HUSHWOOD requires JavaScript and WebGL.</div></noscript>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

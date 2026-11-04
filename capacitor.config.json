@@ -1,0 +1,13 @@
+{
+  "appId": "com.hushwood.quietcure",
+  "appName": "Hushwood",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "backgroundColor": "#080b0a",
+    "allowMixedContent": false,
+    "webContentsDebuggingEnabled": false
+  }
+}

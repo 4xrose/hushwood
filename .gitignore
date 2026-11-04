@@ -1,0 +1,24 @@
+# Node & Vite
+node_modules/
+dist/
+dist-ssr/
+*.local
+npm-debug.log*
+
+# Android / Capacitor build caches & generated assets
+android/.gradle/
+android/build/
+android/app/build/
+android/capacitor-cordova-android-plugins/
+android/local.properties
+*.apk
+*.aab
+
+# Raw unoptimized assets (remove the # below if assets_raw has huge .blend/.psd files over 100MB)
+# assets_raw/
+
+# Environment variables & OS files
+.env
+.env.*
+.DS_Store
+Thumbs.db
